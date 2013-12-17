@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace After
 {
@@ -22,15 +21,6 @@ namespace After
             }
 
             return 500m;
-        }
-    }
-
-    public class InsuranceApplicantRepository
-    {
-        public HashSet<InsuranceApplicant> Applicants { get; set; }
-        public void Save(InsuranceApplicant applicant)
-        {
-            Applicants.Add(applicant);
         }
     }
 }
