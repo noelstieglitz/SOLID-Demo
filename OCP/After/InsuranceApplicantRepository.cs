@@ -8,6 +8,7 @@ namespace After
         {
             Applicants = new HashSet<InsuranceApplicant>();
         }
+
         public HashSet<InsuranceApplicant> Applicants { get; set; }
 
         public void Save(InsuranceApplicant applicant)

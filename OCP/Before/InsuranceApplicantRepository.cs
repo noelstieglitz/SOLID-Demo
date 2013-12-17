@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace After
+namespace Before
 {
     public class InsuranceApplicantRepository
     {
