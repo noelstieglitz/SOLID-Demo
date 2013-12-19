@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2F0D0B87-557A-4586-87F8-3C3C9C091029}</ProjectGuid>
+    <ProjectGuid>{25D9A820-0D2E-4BFC-8881-AA4EF0F0715D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Before</RootNamespace>
-    <AssemblyName>Before</AssemblyName>
+    <RootNamespace>After</RootNamespace>
+    <AssemblyName>After</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,10 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InsuranceApplicant.cs" />
-    <Compile Include="InsuranceApplicantRepository.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="InternalCombustionCar.cs" />
+    <Compile Include="NissanLeaf.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Corvette.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
