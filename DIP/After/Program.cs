@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            var ui = new InusranceController(new InsuranceApplicantRepository());
+            var controller = new InusranceController(new ApplicantRepository());
 
-            ui.Run();
+            controller.Run();
         }
     }
 }

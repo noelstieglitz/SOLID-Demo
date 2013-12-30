@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            var ui = new InsuranceController();
-            ui.Run();
+            var controller = new InsuranceController();
+            controller.Run();
         }
     }
 }

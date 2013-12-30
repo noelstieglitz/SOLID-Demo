@@ -8,7 +8,7 @@ namespace After
         {
             Console.WriteLine("Starting up...");
 
-            var repository = new InsuranceApplicantRepository();
+            var repository = new ApplicantRepository();
 
             var mexicoInsuranceApplicant = new MexicoInsuranceApplicant(new DateTime(1973, 1, 13), 46000);
 

@@ -14,7 +14,7 @@ namespace After
             Console.WriteLine("Premium is {0}", applicant.Premium);
 
             Console.WriteLine("Saving to store...");
-            var repository = new InsuranceApplicantRepository();
+            var repository = new ApplicantRepository();
             repository.Save(applicant);
             Console.WriteLine("Done.");
 

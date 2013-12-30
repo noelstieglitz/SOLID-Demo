@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            var ui = new InusranceController();
+            var controller = new InusranceController();
 
-            ui.Run();
+            controller.Run();
         }
     }
 }

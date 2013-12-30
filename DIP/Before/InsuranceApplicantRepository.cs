@@ -2,9 +2,9 @@
 
 namespace Before
 {
-    public class InsuranceApplicantRepository
+    public class ApplicantRepository
     {
-        public InsuranceApplicantRepository()
+        public ApplicantRepository()
         {
             Applicants = new HashSet<InsuranceApplicant>();
         }
