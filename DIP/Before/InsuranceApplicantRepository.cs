@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace After
+namespace Before
 {
     public class InsuranceApplicantRepository
     {
@@ -8,6 +8,7 @@ namespace After
         {
             Applicants = new HashSet<InsuranceApplicant>();
         }
+
         private HashSet<InsuranceApplicant> Applicants { get; set; }
 
         public void Save(InsuranceApplicant applicant)

@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="InsuranceApplicant.cs" />
     <Compile Include="InsuranceApplicantRepository.cs" />
+    <Compile Include="InsuranceController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

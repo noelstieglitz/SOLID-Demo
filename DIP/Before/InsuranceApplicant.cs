@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace After
+namespace Before
 {
     public abstract class InsuranceApplicant
     {

@@ -14,7 +14,7 @@ namespace Before
             Applicants = new HashSet<InsuranceApplicant>();
         }
 
-        public HashSet<InsuranceApplicant> Applicants { get; set; }
+        private HashSet<InsuranceApplicant> Applicants { get; set; }
 
         public DateTime BornOnDate { get; protected set; }
         public decimal Income { get; protected set; }

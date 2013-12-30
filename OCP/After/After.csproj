@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CanadaInsuranceApplicant.cs" />
     <Compile Include="InsuranceApplicant.cs" />
     <Compile Include="InsuranceApplicantRepository.cs" />
+    <Compile Include="InusranceController.cs" />
+    <Compile Include="MexicoInsuranceApplicant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
