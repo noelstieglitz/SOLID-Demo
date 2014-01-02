@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="CanadaInsuranceApplicant.cs" />
     <Compile Include="InsuranceApplicant.cs" />
-    <Compile Include="InsuranceApplicantRepository.cs" />
+    <Compile Include="ApplicantRepository.cs" />
     <Compile Include="InusranceController.cs" />
     <Compile Include="MexicoInsuranceApplicant.cs" />
     <Compile Include="Program.cs" />

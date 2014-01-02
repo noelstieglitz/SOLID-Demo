@@ -2,7 +2,7 @@
 
 namespace After
 {
-    public class ApplicantRepository : IInsuranceApplicantRepository
+    public class ApplicantRepository : IApplicantRepository
     {
         private static readonly HashSet<InsuranceApplicant> Applicants = new HashSet<InsuranceApplicant>();
 

@@ -4,9 +4,9 @@ namespace After
 {
     public class InusranceController
     {
-        private readonly IInsuranceApplicantRepository _repository;
+        private readonly IApplicantRepository _repository;
 
-        public InusranceController(IInsuranceApplicantRepository repository)
+        public InusranceController(IApplicantRepository repository)
         {
             _repository = repository;
         }

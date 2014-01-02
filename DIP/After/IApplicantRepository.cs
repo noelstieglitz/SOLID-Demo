@@ -1,6 +1,6 @@
 ﻿namespace After
 {
-    public interface IInsuranceApplicantRepository
+    public interface IApplicantRepository
     {
         void Save(InsuranceApplicant applicant);
     }
