@@ -4,12 +4,7 @@ namespace After
 {
     public class ApplicantRepository : IInsuranceApplicantRepository
     {
-        public ApplicantRepository()
-        {
-            Applicants = new HashSet<InsuranceApplicant>();
-        }
-
-        private HashSet<InsuranceApplicant> Applicants { get; set; }
+        private static readonly HashSet<InsuranceApplicant> Applicants = new HashSet<InsuranceApplicant>();
 
         public void Save(InsuranceApplicant applicant)
         {
