@@ -10,7 +10,7 @@
             _isOn = true;
         }
 
-        public virtual void Refuel(decimal gallons)
+        public virtual void GetGas(decimal gallons)
         {
             _gas += gallons;
         }

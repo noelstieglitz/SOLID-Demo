@@ -7,7 +7,7 @@
             //...
         }
 
-        public override void Refuel(decimal gallons)
+        public override void GetGas(decimal gallons)
         {
             //NissanLeaf doesn't use gas
             //We aren't really sure how much we want to charge?
