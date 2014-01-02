@@ -5,16 +5,14 @@ namespace Before
 {
     public class InsuranceApplicant
     {
+        private static readonly HashSet<InsuranceApplicant> Applicants = new HashSet<InsuranceApplicant>();
+
         public InsuranceApplicant(DateTime bornOnDate, decimal income)
         {
             BornOnDate = bornOnDate;
             Income = income;
             Id = Guid.NewGuid();
-
-            Applicants = new HashSet<InsuranceApplicant>();
         }
-
-        private HashSet<InsuranceApplicant> Applicants { get; set; }
 
         public DateTime BornOnDate { get; protected set; }
         public decimal Income { get; protected set; }
